@@ -1,0 +1,139 @@
+# Obsidian Intelligence — Development Progress
+
+Tracking the learning + development journey of building an AI-powered multi-agent job copilot system.
+
+---
+
+# 🚀 Progress Update #1 — Project Kickoff
+
+## ✅ Completed
+
+- Finalized the project idea and overall architecture
+- Defined the primary system workflow:
+
+```text
+Analyze → Score → Decide → Act
+```
+
+- Identified the core problem statement:
+  
+Building an AI system capable of intelligently deciding whether a job opportunity should be applied for, saved, or skipped.
+
+---
+
+# 🧠 Research & Learning Phase
+
+Currently learning and exploring:
+
+- Retrieval-Augmented Generation (RAG)
+- Vector embeddings
+- Semantic similarity
+- Multi-agent systems
+- LLM orchestration
+- AI workflow pipelines
+- Contextual reasoning systems
+
+---
+
+# ⚙️ Tech Stack Finalized
+
+## Core Development
+- Python
+
+## AI / LLM Frameworks
+- LangChain
+- OpenAI APIs
+- HuggingFace Transformers
+
+## Embeddings & Retrieval
+- Sentence Transformers
+- FAISS Vector Database
+
+## Planned Additions
+- FastAPI
+- Streamlit
+
+---
+
+# 🔍 Current Development Focus
+
+Building the foundational intelligence layer:
+
+- Resume parsing
+- Job description analysis
+- Embedding generation
+- Similarity matching
+- Context retrieval pipeline
+
+---
+
+# 🎯 Immediate Goal
+
+Develop the first working module capable of:
+
+```text
+Resume + Job Description
+            ↓
+Embedding Generation
+            ↓
+Semantic Similarity Matching
+            ↓
+Relevance Score Output
+```
+
+---
+
+# 📌 Upcoming Steps
+
+- Build intelligent scoring engine
+- Introduce reasoning workflows
+- Design multi-agent communication pipeline
+- Add decision-making logic
+- Integrate LLM-generated outputs
+- Build automated workflow system
+
+---
+
+# 📈 Long-Term Vision
+
+Transform Obsidian Intelligence into a fully autonomous AI copilot capable of:
+
+- Contextual reasoning
+- Intelligent opportunity analysis
+- Adaptive learning
+- Automated workflows
+- Personalized resume generation
+- AI-driven decision-making
+
+---
+
+# 🛠️ Current Status
+
+```text
+Project Planning        ██████████ 100%
+Architecture Design     ██████████ 100%
+Tech Stack Research     ██████████ 100%
+RAG Learning            ███████░░░ 70%
+Embedding Pipeline      ████░░░░░░ 40%
+Scoring Engine          ██░░░░░░░░ 20%
+Agent Workflow Design   ██░░░░░░░░ 20%
+```
+
+---
+
+# 🚀 Build Journey
+
+This repository is being developed while simultaneously learning and applying concepts related to:
+
+- AI Agents
+- LLM Engineering
+- RAG Systems
+- Intelligent Automation
+- Semantic Search
+- Decision-Making Architectures
+
+Progress updates will continue throughout the development journey.
+
+---
+
+More updates coming soon 🚀

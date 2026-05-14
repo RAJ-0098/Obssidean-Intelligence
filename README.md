@@ -1,98 +1,126 @@
-**Obsidian Intelligence**
+# Obsidian Intelligence
 
-   AI-powered multi-agent job copilot system built using Python, RAG, and LLMs.
+> AI-powered multi-agent job copilot system built using Python, RAG, and LLMs.
 
-**🚀 Overview**
+---
 
- Obsidian Intelligence is an intelligent job decision-making system designed to analyze job opportunities and autonomously decide whether to:
+## 🚀 Overview
 
-...✅ Apply
-...⭐ Save
-...❌ Skip
+Obsidian Intelligence is an intelligent AI system designed to analyze job opportunities and autonomously decide whether to:
 
-**The project combines:**
+- ✅ Apply
+- ⭐ Save
+- ❌ Skip
 
->>>Large Language Models (LLMs)
->>>Retrieval-Augmented Generation (RAG)
->>>Vector embeddings
->>>Multi-agent workflows
->>>Semantic similarity scoring
+The project combines:
 
->>>>>>>>>The goal is to move beyond traditional keyword-based job matching and build an AI system capable of contextual reasoning and structured decision-making.
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- Vector embeddings
+- Multi-agent workflows
+- Semantic similarity scoring
 
-**🧠 Problem Statement**
+The goal is to move beyond traditional keyword-based matching and build a system capable of contextual reasoning and structured decision-making.
 
->>>Job searching has become overwhelming due to:
+---
 
-#Thousands of repetitive applications
-#Poor keyword-based filtering
-#Generic resume submissions
-#Lack of personalized opportunity analysis
->>>Most existing platforms focus on search and recommendations but do not provide intelligent reasoning or autonomous decision support.
+# 🧠 Problem Statement
 
-**Obsidian Intelligence aims to solve this by creating an AI-powered copilot that can:**
+Modern job searching has become overwhelming because of:
 
->>>Understand job descriptions
->>>Analyze candidate profiles
->>>Score relevance intelligently
->>>Decide whether a role is worth pursuing
->>>Generate customized application materials
+- Thousands of repetitive applications
+- Poor keyword-based filtering
+- Generic resume submissions
+- Lack of personalized opportunity analysis
 
-**⚡ Core Features**
+Most existing platforms focus only on recommendations and search.
 
-**🔍 Job Description Analysis**
->>>Extracts important skills, requirements, and experience levels
->>>Understands contextual meaning using LLMs
-**🧩 Retrieval-Augmented Generation (RAG)**
->>>Stores candidate profile context using vector embeddings
->>>Retrieves relevant information dynamically
->>>Enables contextual understanding instead of keyword matching
+Obsidian Intelligence aims to solve this by creating an AI-powered copilot that can:
 
-**📊 Intelligent Scoring Engine
-Calculates a relevance score based on:**
+- Understand job descriptions
+- Analyze candidate profiles
+- Score relevance intelligently
+- Decide whether a role is worth pursuing
+- Generate customized application materials
 
->>>Skill alignment
->>>Experience matching
->>>Semantic similarity
->>>Preferred technologies
->>>Contextual fit
+---
 
-**🤖 Multi-Agent Workflow System**
->>>The system is designed using multiple AI agents:
+# ⚡ Core Features
 
-**Agent	Responsibility**
->>>Analyzer Agent : 	Understands job descriptions
->>>Scoring Agent	 : Computes relevance scores
->>>Decision Agent : 	Decides Apply / Save / Skip
->>>Resume Agent	 : Generates tailored resumes
->>>Action Agent	 : Handles automated workflows
-**✍️ Resume & Cover Letter Generation**
->>>Generates role-specific resumes
->>>Creates customized cover letters using LLMs
->>>Optimizes content for job requirements
+## 🔍 Job Description Analysis
 
-**🔄 Future Learning System**
-**Planned extension:**
->>>Learn from previous applications
->>>improve scoring accuracy over time
->>>Adapt decision-making using feedback loops
+- Extracts important skills, requirements, and experience levels
+- Understands contextual meaning using LLMs
 
-**🛠️ Tech Stack**
-**Core Language**
-   >>>Python
-**AI / LLM Stack**
-  >>>OpenAI APIs
-  >>>LangChain
-  >>>HuggingFace Transformers
-  >>>Embedding & RAG
-**Sentence Transformers**
-  >>>FAISS Vector Database
-**Backend & APIs**
-  >>>FastAPI (Planned)
-**Frontend / UI**
-  >>>Streamlit (Planned)
+---
 
-**🧱 System Architecture**
+## 🧩 Retrieval-Augmented Generation (RAG)
+
+- Stores candidate profile context using vector embeddings
+- Retrieves relevant information dynamically
+- Enables contextual understanding instead of keyword matching
+
+---
+
+## 📊 Intelligent Scoring Engine
+
+Calculates a relevance score based on:
+
+- Skill alignment
+- Experience matching
+- Semantic similarity
+- Preferred technologies
+- Contextual fit
+
+---
+
+## 🤖 Multi-Agent Workflow System
+
+The system is designed using multiple AI agents:
+
+| Agent | Responsibility |
+|---|---|
+| Analyzer Agent | Understands job descriptions |
+| Scoring Agent | Computes relevance scores |
+| Decision Agent | Decides Apply / Save / Skip |
+| Resume Agent | Generates tailored resumes |
+| Action Agent | Handles automated workflows |
+
+---
+
+## ✍️ Resume & Cover Letter Generation
+
+- Generates role-specific resumes
+- Creates customized cover letters using LLMs
+- Optimizes content for job requirements
+
+---
+
+# 🛠️ Tech Stack
+
+## Core Language
+- Python
+
+## AI / LLM Stack
+- OpenAI APIs
+- LangChain
+- HuggingFace Transformers
+
+## Embedding & RAG
+- Sentence Transformers
+- FAISS Vector Database
+
+## Backend & APIs
+- FastAPI *(Planned)*
+
+## Frontend / UI
+- Streamlit *(Planned)*
+
+---
+
+# 🧱 System Architecture
+
+```text
                 ┌────────────────────┐
                 │ Job Description     │
                 └─────────┬──────────┘
@@ -125,17 +153,6 @@ Calculates a relevance score based on:**
                           │
           ┌───────────────┼───────────────┐
           ▼                               ▼
-          ┌──────────────┐              ┌────────────────┐
-          │ Apply        │              │ Save / Skip    │
-          └──────────────┘              └────────────────┘
-
-
-
-
-**👨‍💻 Author**
-
-Raj Gopal Vadduri
-AI/ML Enthusiast | Building AI Systems | Exploring Multi-Agent Architectures
    ┌──────────────┐              ┌────────────────┐
    │ Apply        │              │ Save / Skip    │
    └──────────────┘              └────────────────┘
